@@ -1,0 +1,91 @@
+body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+.body{ background-image: url("../css/img/fondo.jpg");}
+
+form>div {
+    line-height:2.5em;
+}
+
+
+.form-input{
+    width: 100px;
+}
+
+
+ul p:hover{
+    outline: none;
+    text-decoration: none;
+}
+
+ul p:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+div a{
+    font-size: 14px;
+}
+
+li p{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.card-bg{
+    background-color: rgba(0, 0, 0, 0.63);
+    min-width: 180px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 800px;
+    padding: 20px 0;
+}
+.input-bg-dark{
+    background-color: rgba(151, 151, 151, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+.input-bg-dark:hover{
+    background-color: rgba(151, 151, 151, 0);
+    color: rgb(255, 255, 255);
+}
+.input-bg-dark:focus{
+    background-color: rgba(151, 151, 151, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+.input-bg-dark::placeholder{
+    color: rgb(189, 188, 188);
+}
+
+.espacio{
+    padding: 100px 0;
+}
+.btn-negr {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+.inpu {
+    border: 1px dotted #999;
+    border-radius: 0;
+  
+    -webkit-appearance: none;
+  }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.table1{
+    
+    width: 50px;
+}
